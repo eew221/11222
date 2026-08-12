@@ -1,0 +1,21 @@
+{
+  "protocol": "source_disjoint_four_way_v1",
+  "selection": "source-balanced pre-outcome visual association audit",
+  "images": 60,
+  "evidence_boxes": 597,
+  "worker_boxes": 317,
+  "sources": [
+    "10_tunnel",
+    "11_tunnel",
+    "1_tunnel",
+    "2_tunnel",
+    "3_tunnel",
+    "4_tunnel",
+    "5_tunnel",
+    "6_tunnel",
+    "7_tunnel",
+    "8_tunnel",
+    "9_tunnel"
+  ],
+  "annotation_status": "templates_created_not_yet_human_signed"
+}

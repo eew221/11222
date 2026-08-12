@@ -1,0 +1,15 @@
+# Never publish restricted originals or large derived artifacts without written authorization.
+data/
+datasets/
+images/
+annotated_images/
+*.pt
+*.onnx
+*.engine
+manuscript/*.pdf
+prediction_cache/
+cache/
+runs/
+__pycache__/
+*.pyc
+.venv/

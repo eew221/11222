@@ -1,0 +1,7 @@
+numpy==1.26.4
+scipy==1.16.2
+opencv-python==4.10.0.84
+matplotlib==3.10.6
+PyYAML==6.0.2
+ultralytics==8.3.239
+torch==2.6.0

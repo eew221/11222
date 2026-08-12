@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying manuscript and the archived release."
+title: "RC-WSSI reproducibility package"
+authors:
+  - family-names: Lu
+    given-names: Yuge
+  - family-names: Huang
+    given-names: Sheng
+  - family-names: Lan
+    given-names: Qiuzu
+  - family-names: Cai
+    given-names: Yong
+repository-code: "https://github.com/a450671132-code/122"
+date-released: 2026-08-12
+version: "0.1.0"
+abstract: "Code and derived manifests for geometry-defined single-owner PPE evidence allocation and cross-worker contamination analysis."
