@@ -12,7 +12,7 @@ The completed human audit is a blinded, independently adjudicated, deliberately 
 
 ## Repository layout
 
-- `manuscript/`: v26 manuscript source, bibliography, and non-sensitive analysis figures. The compiled PDF is kept out of the public release until image-publication permission is verified.
+- `manuscript/`: v28 manuscript source, bibliography, and non-sensitive analysis figures. The compiled PDF is kept out of the public release until image-publication permission is verified.
 - `scripts/`: training, validation, cached prediction, analysis, and annotation utilities.
 - `audit/difficult_20260810_v1/`: manifest and instructions for the completed difficult audit. Raw images are excluded.
 - `audit/random_20260812_v1/`: frozen source-stratified random audit manifest, blank templates, Chinese annotation page, and instructions. Raw images are excluded.
