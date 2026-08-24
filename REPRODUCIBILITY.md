@@ -2,11 +2,11 @@
 
 ## Current manuscript
 
-- Source: `manuscript/main_v25.tex`
+- Source: `manuscript/main_v26.tex`
 - Bibliography: `manuscript/references.bib`
-- Local compiled PDF: `RC_WSSI_MVA_manuscript_v25.pdf` in the author workspace
+- Local compiled PDF: `RC_WSSI_MVA_manuscript_v26.pdf` in the author workspace
 - Local PDF page count: 21
-- Local PDF SHA-256: `C1D74A18B38EEF9C40F3AEEDD323062ECF1A85C197EA3A4A848B9A4CF91DD684`
+- Local PDF SHA-256: `B22878120C8EF84FC4158A1B3290D7A77E79A11CDECE6E31F5166D0EF0D6B929`
 - Build sequence: `pdflatex`, `bibtex`, `pdflatex`, `pdflatex`
 
 The public repository intentionally excludes the compiled PDF until permission to publish the qualitative image figure is verified. The manuscript source also requires an authorized local copy of the underlying image source for a complete rebuild.

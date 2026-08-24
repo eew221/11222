@@ -10,7 +10,7 @@ authors:
     given-names: Qiuzu
   - family-names: Cai
     given-names: Yong
-repository-code: "https://github.com/a450671132-code/122"
-date-released: 2026-08-12
-version: "0.1.0"
+repository-code: "https://github.com/eew221/11222"
+date-released: 2026-08-24
+version: "0.2.0"
 abstract: "Code and derived manifests for geometry-defined single-owner PPE evidence allocation and cross-worker contamination analysis."

@@ -12,7 +12,7 @@ The completed human audit is a blinded, independently adjudicated, deliberately 
 
 ## Repository layout
 
-- `manuscript/`: v25 manuscript source and bibliography. The compiled PDF is kept out of the public release until image-publication permission is verified.
+- `manuscript/`: v26 manuscript source, bibliography, and non-sensitive analysis figures. The compiled PDF is kept out of the public release until image-publication permission is verified.
 - `scripts/`: training, validation, cached prediction, analysis, and annotation utilities.
 - `audit/difficult_20260810_v1/`: manifest and instructions for the completed difficult audit. Raw images are excluded.
 - `audit/random_20260812_v1/`: frozen source-stratified random audit manifest, blank templates, Chinese annotation page, and instructions. Raw images are excluded.
@@ -44,7 +44,7 @@ The project-specific scripts expect the authorized data, protocol manifests, run
 
 ## Citation and archival release
 
-The repository URL is https://github.com/a450671132-code/122. Before manuscript submission, create a tagged GitHub release and archive that release with Zenodo (or an equivalent service). Put the resulting immutable release URL, commit hash, and DOI in `CITATION.cff`, the manuscript, and the submission materials. Do not cite a placeholder DOI.
+The repository URL is https://github.com/eew221/11222. Before manuscript submission, create a tagged GitHub release and archive that release with Zenodo (or an equivalent service). Put the resulting immutable release URL, commit hash, and DOI in `CITATION.cff`, the manuscript, and the submission materials. Do not cite a placeholder DOI.
 
 ## License and data notice
 
