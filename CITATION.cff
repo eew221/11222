@@ -12,5 +12,5 @@ authors:
     given-names: Yong
 repository-code: "https://github.com/eew221/11222"
 date-released: 2026-08-24
-version: "0.4.0"
+version: "0.4.1"
 abstract: "Code and derived manifests for geometry-defined single-owner PPE evidence allocation and cross-worker contamination analysis."

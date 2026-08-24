@@ -49,4 +49,4 @@ The repository URL is https://github.com/eew221/11222. Before manuscript submiss
 
 ## License and data notice
 
-The repository source code is publicly accessible. No broad code-reuse license has yet been granted, so standard copyright applies unless the authors later add an explicit `LICENSE` file. This decision is independent of the self-collected image data, which are not publicly released. See `LICENSE_SELECTION_REQUIRED.md` and `DATA_AND_ETHICS.md`.
+Original repository code is released under the MIT License. This license does not grant any right to access, copy, or redistribute the self-collected image data, per-image labels, weights, caches, or image-derived overlays, which remain restricted. See `LICENSE`, `DATA_AND_ETHICS.md`, and `RELEASE_NOTES_v0.4.1.md`.

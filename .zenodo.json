@@ -1,0 +1,20 @@
+{
+  "title": "RC-WSSI reproducibility package",
+  "description": "Code and derived non-image manifests for geometry-defined single-owner PPE evidence allocation and cross-worker contamination analysis. The self-collected construction-scene images, per-image labels, detector weights, prediction caches, and image-derived overlays are excluded because of confidentiality and privacy controls.",
+  "creators": [
+    {"name": "Lu, Yuge"},
+    {"name": "Huang, Sheng"},
+    {"name": "Lan, Qiuzu"},
+    {"name": "Cai, Yong"}
+  ],
+  "license": "MIT",
+  "version": "0.4.1",
+  "keywords": [
+    "personal protective equipment",
+    "worker ownership",
+    "evidence allocation",
+    "cross-worker contamination",
+    "selective decisions"
+  ],
+  "access_right": "open"
+}
