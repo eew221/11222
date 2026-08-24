@@ -1,0 +1,60 @@
+{
+  "status": "three_frozen_open_set_blind_passes_analyzed",
+  "selection": "pre-frozen source-stratified random image sample; no resampling",
+  "images": 66,
+  "evidence_boxes": 334,
+  "all_three_exact_agreement_count": 299,
+  "all_three_exact_agreement_rate": 0.8952095808383234,
+  "pairwise": [
+    {
+      "pair": "A_B",
+      "evidence_boxes": 334,
+      "exact_agreement_rate": 0.9281437125748503,
+      "cohen_kappa_auxiliary": 0.9111682439770383
+    },
+    {
+      "pair": "A_C",
+      "evidence_boxes": 334,
+      "exact_agreement_rate": 0.9191616766467066,
+      "cohen_kappa_auxiliary": 0.8999977821641642
+    },
+    {
+      "pair": "B_C",
+      "evidence_boxes": 334,
+      "exact_agreement_rate": 0.9401197604790419,
+      "cohen_kappa_auxiliary": 0.9260922961176327
+    }
+  ],
+  "blind_majority_rows": 333,
+  "three_way_disagreement_rows_retained_ambiguous": 1,
+  "determinate_visible_human_owner_rows": 321,
+  "human_owner_in_geometric_candidate_count": 320,
+  "human_owner_in_geometric_candidate_recall": 0.9968847352024922,
+  "human_owner_outside_geometric_candidate_count": 1,
+  "none_rows": 0,
+  "ambiguous_rows": 13,
+  "frozen_passes": {
+    "A": {
+      "annotation_status": "frozen_blind_open_set_human_pass",
+      "annotator": "A",
+      "completed_evidence_rows": 334,
+      "csv_sha256": "ccda8dfe474b27f7271316b839d8036d475c522eb0d34e8a231300451553da95",
+      "frozen_utc": "2026-08-24T06:47:01.152918+00:00"
+    },
+    "B": {
+      "annotation_status": "frozen_blind_open_set_human_pass",
+      "annotator": "B",
+      "completed_evidence_rows": 334,
+      "csv_sha256": "21a6bd70743a5e26c4aa0a3ac203141996eff0f6f9c9628c75a994b9dc5d2eb2",
+      "frozen_utc": "2026-08-24T06:53:08.688416+00:00"
+    },
+    "C": {
+      "annotation_status": "frozen_blind_open_set_human_pass",
+      "annotator": "C",
+      "completed_evidence_rows": 334,
+      "csv_sha256": "728bb99348e5667f1aabdb3e836675b9720a806b822e90c60d8b5249de050f35",
+      "frozen_utc": "2026-08-24T07:46:23.625117+00:00"
+    }
+  },
+  "interpretation": "This quantifies agreement and whether a blind open-set human owner falls within the original geometric candidate list on the sampled rows. It is not a full-corpus semantic truth, a temporal identity study, a cluster-valid risk guarantee, or deployment validation."
+}

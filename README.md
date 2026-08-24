@@ -1,6 +1,6 @@
 # RC-WSSI reproducibility package
 
-This repository accompanies the manuscript *Geometry-Defined Single-Owner PPE Evidence Allocation and Cross-Worker Contamination Analysis*.
+This repository accompanies manuscript v30, *Geometry-Defined Single-Owner PPE Evidence Allocation and Cross-Worker Contamination Analysis*.
 
 It provides the implementation, paper source, split/audit manifests, and blinded annotation templates for reproducing the reported protocol. It does **not** distribute the self-collected construction-scene images, detector weights, prediction caches, or per-image labels. The raw frames may contain identifiable people and remain under the authoring organization's confidentiality and privacy controls.
 
@@ -8,14 +8,15 @@ It provides the implementation, paper source, split/audit manifests, and blinded
 
 The study evaluates deterministic single-owner PPE evidence allocation and cross-worker evidence contamination under a geometry-defined reference. Its Clopper-Pearson calculation is a model-conditional feasibility diagnostic under an independent-binomial worker model. It is not a cluster-valid statistical guarantee or a deployment safety claim.
 
-The completed human audit is a blinded, independently adjudicated, deliberately difficult and candidate-restricted subset. The complementary source-stratified random audit package is frozen before annotation; its blank templates are included, but it is not reported as an outcome in the current manuscript.
+The completed human audits are complementary: a blinded, independently adjudicated, deliberately difficult candidate-restricted subset and a pre-frozen source-stratified random open-candidate audit with three blind passes. The public package contains protocol materials and aggregate outputs only; raw images and per-image labels remain private.
 
 ## Repository layout
 
-- `manuscript/`: v28 manuscript source, bibliography, and non-sensitive analysis figures. The compiled PDF is kept out of the public release until image-publication permission is verified.
+- `manuscript/`: v30 manuscript source, bibliography, and non-sensitive analysis figures. The compiled submission PDF and qualitative source frames remain in the local submission workspace until publication authorization is confirmed.
 - `scripts/`: training, validation, cached prediction, analysis, and annotation utilities.
 - `audit/difficult_20260810_v1/`: manifest and instructions for the completed difficult audit. Raw images are excluded.
 - `audit/random_20260812_v1/`: frozen source-stratified random audit manifest, blank templates, and the v2 open-set three-pass protocol. Raw images are excluded.
+- `audit/random_20260812_v1/results_v30/`: aggregate random-audit evaluation outputs only; per-image expert labels are excluded.
 - `SUBMISSION_METADATA_REQUIRED.md`: fields that require author verification before submission.
 
 ## Environment
@@ -38,7 +39,7 @@ The recorded `torch==2.6.0` requirement is intentionally CUDA-neutral. Install t
 1. Obtain written authorization from the data-owning organization before accessing the self-collected original images.
 2. Create the four-role filename-group protocol with `scripts/build_source_disjoint_protocol.py` and validate it with `scripts/source_disjoint_validation.py`.
 3. Train/cache predictions using the source-disjoint scripts, then compute worker-state summaries with `scripts/formal_worker_state_experiment.py` and `scripts/analyze_cached_rc_wssi_robustness.py`.
-4. Use `scripts/serve_manual_assignment_audit.py` for the completed difficult candidate-restricted audit. For the complementary random audit, use `scripts/prepare_open_set_random_assignment_audit.py` and `scripts/serve_open_set_assignment_audit.py` for three independent open-set blind passes; freeze all three before running `scripts/analyze_open_set_random_assignment_audit.py`.
+4. Use `scripts/serve_manual_assignment_audit.py` for the completed difficult candidate-restricted audit. For the complementary random audit, use `scripts/prepare_open_set_random_assignment_audit.py` and `scripts/serve_open_set_assignment_audit.py` for three independent open-set blind passes; freeze all three before running `scripts/analyze_open_set_random_assignment_audit.py` and `scripts/evaluate_open_set_random_human_reference.py`.
 
 The project-specific scripts expect the authorized data, protocol manifests, run directories, and weights at the paths supplied on their command lines. They deliberately fail rather than downloading or redistributing restricted inputs.
 
