@@ -15,7 +15,7 @@ The completed human audit is a blinded, independently adjudicated, deliberately 
 - `manuscript/`: v28 manuscript source, bibliography, and non-sensitive analysis figures. The compiled PDF is kept out of the public release until image-publication permission is verified.
 - `scripts/`: training, validation, cached prediction, analysis, and annotation utilities.
 - `audit/difficult_20260810_v1/`: manifest and instructions for the completed difficult audit. Raw images are excluded.
-- `audit/random_20260812_v1/`: frozen source-stratified random audit manifest, blank templates, Chinese annotation page, and instructions. Raw images are excluded.
+- `audit/random_20260812_v1/`: frozen source-stratified random audit manifest, blank templates, and the v2 open-set three-pass protocol. Raw images are excluded.
 - `SUBMISSION_METADATA_REQUIRED.md`: fields that require author verification before submission.
 
 ## Environment
@@ -38,7 +38,7 @@ The recorded `torch==2.6.0` requirement is intentionally CUDA-neutral. Install t
 1. Obtain written authorization from the data-owning organization before accessing the self-collected original images.
 2. Create the four-role filename-group protocol with `scripts/build_source_disjoint_protocol.py` and validate it with `scripts/source_disjoint_validation.py`.
 3. Train/cache predictions using the source-disjoint scripts, then compute worker-state summaries with `scripts/formal_worker_state_experiment.py` and `scripts/analyze_cached_rc_wssi_robustness.py`.
-4. Use `scripts/serve_manual_assignment_audit.py` for two independent human annotation passes. Freeze both passes before running agreement or adjudication scripts. The random-audit templates contain no outcome labels.
+4. Use `scripts/serve_manual_assignment_audit.py` for the completed difficult candidate-restricted audit. For the complementary random audit, use `scripts/prepare_open_set_random_assignment_audit.py` and `scripts/serve_open_set_assignment_audit.py` for three independent open-set blind passes; freeze all three before running `scripts/analyze_open_set_random_assignment_audit.py`.
 
 The project-specific scripts expect the authorized data, protocol manifests, run directories, and weights at the paths supplied on their command lines. They deliberately fail rather than downloading or redistributing restricted inputs.
 
