@@ -1,29 +1,21 @@
 # Data, image permission, privacy, and ethics statement
 
-This file is intentionally a verified-facts template. The repository does not contain original images. The authors must replace every `TODO` below with source-backed information before submission or public release.
+## Data availability
 
-## Dataset access and license
+The study uses a self-collected low-light tunnel PPE image dataset held locally by the authoring organization. The original images, detector weights, prediction caches, and per-image annotations are **not publicly available** because the raw frames may contain identifiable people and are subject to organizational confidentiality and privacy controls. This repository therefore distributes no original images or image-derived overlays.
 
-- Official dataset name and version: `TODO`
-- Official dataset URL or persistent identifier: `TODO`
-- Original data owner / provider: `TODO`
-- License or written access terms: `TODO`
-- Whether derived manifests/caches may be shared: `TODO`
-- Whether the paper's qualitative frames may be published: `TODO`
+The public artifact contains code, paper source, aggregate tables, non-image protocol manifests, and blank annotation templates only. The corresponding author may be contacted about the feasibility of editorial data-access requests, which remain subject to the data owner's written authorization and applicable privacy controls. This statement does not promise public release or unrestricted access to the original dataset.
 
-## Privacy and image handling
+## Qualitative images and redaction
 
-- Does the source contain identifiable faces, names, badges, vehicle plates, or other personal data? `TODO`
-- De-identification performed before release/publication: `TODO`
-- Retention and access controls for original images: `TODO`
-- Basis for publishing Figure 5 and human-audit overlays: `TODO`
+The manuscript contains a limited number of qualitative construction-scene crops. Before submission, each crop must be manually reviewed for faces, badges/names, vehicle plates, company marks, and other identifiable information. Each identified region must be strongly pixelated, and the review coordinates must be frozen in a local redaction manifest before the final Figure 5 is rendered. The raw source frames and redaction overlays are not uploaded to this repository.
+
+At the repository version represented by the current manuscript source, the redaction review is still a local pre-submission task. The final PDF must not be submitted until the review has been completed and frozen.
 
 ## Ethics and legal basis
 
-- Ethics approval identifier, or the institution's documented reason that approval was not required: `TODO`
-- Consent / lawful basis, if applicable: `TODO`
-- Institutional contact for data-access questions: `TODO`
+The dataset is self-collected. The authors must confirm, before submission, the organization-approved legal/ethical basis for research use and for publication of manually redacted qualitative crops. The applicable approval number, written authorization, or documented exemption basis is not asserted in this repository because no verified record has yet been supplied.
 
 ## Public artifact boundary
 
-This repository may publish code, paper sources, split identifiers, aggregate tables, blank annotation templates, and derived non-image manifests only to the extent allowed by the verified source terms above. It must not publish original frames, annotated image overlays, detector weights, or prediction caches unless those terms expressly allow it.
+This repository intentionally excludes original frames, annotated image overlays, detector weights, prediction caches, and per-image labels. Public code availability does not grant any right to access, copy, or redistribute the self-collected image data.

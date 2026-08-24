@@ -2,7 +2,7 @@
 
 This repository accompanies the manuscript *Geometry-Defined Single-Owner PPE Evidence Allocation and Cross-Worker Contamination Analysis*.
 
-It provides the implementation, paper source, split/audit manifests, and blinded annotation templates for reproducing the reported protocol. It does **not** distribute the underlying construction-scene images, detector weights, or prediction caches. Those materials remain subject to the original data owner's access conditions, license, privacy constraints, and publication permission.
+It provides the implementation, paper source, split/audit manifests, and blinded annotation templates for reproducing the reported protocol. It does **not** distribute the self-collected construction-scene images, detector weights, prediction caches, or per-image labels. The raw frames may contain identifiable people and remain under the authoring organization's confidentiality and privacy controls.
 
 ## Scope
 
@@ -35,7 +35,7 @@ The recorded `torch==2.6.0` requirement is intentionally CUDA-neutral. Install t
 
 ## Reproduction outline
 
-1. Complete `DATA_AND_ETHICS.md`, then obtain the original image data only through its verified official source.
+1. Obtain written authorization from the data-owning organization before accessing the self-collected original images.
 2. Create the four-role filename-group protocol with `scripts/build_source_disjoint_protocol.py` and validate it with `scripts/source_disjoint_validation.py`.
 3. Train/cache predictions using the source-disjoint scripts, then compute worker-state summaries with `scripts/formal_worker_state_experiment.py` and `scripts/analyze_cached_rc_wssi_robustness.py`.
 4. Use `scripts/serve_manual_assignment_audit.py` for two independent human annotation passes. Freeze both passes before running agreement or adjudication scripts. The random-audit templates contain no outcome labels.
@@ -48,4 +48,4 @@ The repository URL is https://github.com/eew221/11222. Before manuscript submiss
 
 ## License and data notice
 
-No repository `LICENSE` file is supplied yet because the authors must select a license for the code they own. This decision is independent of the original image dataset license. See `LICENSE_SELECTION_REQUIRED.md` and `DATA_AND_ETHICS.md`; both must be completed with verified facts before public release and submission.
+The repository source code is publicly accessible. No broad code-reuse license has yet been granted, so standard copyright applies unless the authors later add an explicit `LICENSE` file. This decision is independent of the self-collected image data, which are not publicly released. See `LICENSE_SELECTION_REQUIRED.md` and `DATA_AND_ETHICS.md`.

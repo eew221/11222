@@ -2,11 +2,11 @@
 
 ## Current manuscript
 
-- Source: `manuscript/main_v26.tex`
+- Source: `manuscript/main_v27.tex`
 - Bibliography: `manuscript/references.bib`
-- Local compiled PDF: `RC_WSSI_MVA_manuscript_v26.pdf` in the author workspace
+- Local compiled PDF: `RC_WSSI_MVA_manuscript_v27.pdf` in the author workspace
 - Local PDF page count: 21
-- Local PDF SHA-256: `B22878120C8EF84FC4158A1B3290D7A77E79A11CDECE6E31F5166D0EF0D6B929`
+- Local PDF SHA-256: `081D50CEB29FF13749C3069E61B5C29AFDCCDDE2D19802841D9DE03937FB0095`
 - Build sequence: `pdflatex`, `bibtex`, `pdflatex`, `pdflatex`
 
 The public repository intentionally excludes the compiled PDF until permission to publish the qualitative image figure is verified. The manuscript source also requires an authorized local copy of the underlying image source for a complete rebuild.
@@ -25,5 +25,5 @@ The complementary audit contains 66 source-stratified outer-test images, six fro
 - Restricted image/weight binaries in repository tree: none at initial package creation.
 - Public GitHub push: pending network/authentication availability.
 - Code license: pending author selection; see `LICENSE_SELECTION_REQUIRED.md`.
-- Dataset license, image permission, privacy, ethics basis, release tag, and DOI: pending author verification; see `DATA_AND_ETHICS.md` and `RELEASE_CHECKLIST.md`.
+- The dataset is self-collected and not publicly released. Manual qualitative-image redaction and organization-approved ethics/legal basis remain pending before submission; see `DATA_AND_ETHICS.md` and `RELEASE_CHECKLIST.md`.
 
