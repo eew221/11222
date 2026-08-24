@@ -33,7 +33,6 @@ applies to original repository code only and grants no rights to those data.
 ## Archival DOI
 
 Zenodo archival is pending. Do not cite a DOI until Zenodo creates one for this
-specific GitHub release.
-
-Release commit: $hash
+specific GitHub release. The annotated `v0.4.1` tag is the immutable pointer to
+the exact release commit; GitHub displays that commit on the release page.
 
