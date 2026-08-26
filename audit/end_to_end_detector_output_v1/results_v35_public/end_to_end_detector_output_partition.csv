@@ -1,0 +1,17 @@
+scope,category,count
+predicted_PPE,all predicted PPE,305
+predicted_PPE,owner in detected-person set,290
+predicted_PPE,owner outside detected-person set,7
+predicted_PPE,human false detection,7
+predicted_PPE,ambiguous,1
+conditional owner score,determinate owner,297
+conditional owner score,RC exact owner,265
+conditional owner score,RC mismatch: in-set wrong owner,25
+conditional owner score,RC mismatch: owner outside set,7
+missed reference PPE,all missed reference PPE,71
+missed reference PPE,owner in detected-person set,54
+missed reference PPE,owner outside detected-person set,17
+prediction-reference cross-tab,matched prediction and human false detection,1
+prediction-reference cross-tab,matched prediction and not human false detection,208
+prediction-reference cross-tab,unmatched prediction and human false detection,6
+prediction-reference cross-tab,unmatched prediction and not human false detection,90

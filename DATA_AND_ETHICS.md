@@ -16,6 +16,8 @@ At the repository version represented by the current manuscript source, the reda
 
 The dataset is self-collected. The authors must confirm, before submission, the organization-approved legal/ethical basis for research use and for publication of manually redacted qualitative crops. The applicable approval number, written authorization, or documented exemption basis is not asserted in this repository because no verified record has yet been supplied.
 
+A Chinese local record template is provided at `templates/单位数据研究使用与脱敏图发表授权记录_中文.md`. It is a blank template, not evidence of authorization. Do not replace this statement or insert an approval identifier until a verified record has been obtained and retained.
+
 ## Public artifact boundary
 
 This repository intentionally excludes original frames, annotated image overlays, detector weights, prediction caches, and per-image labels. Public code availability does not grant any right to access, copy, or redistribute the self-collected image data.

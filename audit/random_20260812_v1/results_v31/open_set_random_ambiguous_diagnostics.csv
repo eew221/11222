@@ -1,0 +1,7 @@
+dimension,category,ambiguous_rows,annotator_a_person,annotator_a_none,annotator_a_ambiguous,annotator_b_person,annotator_b_none,annotator_b_ambiguous,annotator_c_person,annotator_c_none,annotator_c_ambiguous,proposed_lexicographic_none,proposed_lexicographic_single_owner,proposed_lexicographic_multi_owner,center_inside_none,center_inside_single_owner,center_inside_multi_owner,hungarian_iou_none,hungarian_iou_single_owner,hungarian_iou_multi_owner,max_iou_none,max_iou_single_owner,max_iou_multi_owner,global_pooling_none,global_pooling_single_owner,global_pooling_multi_owner
+evidence_class,H+,6,0,0,6,1,0,5,0,0,6,0,6,0,0,6,0,0,6,0,0,6,0,0,0,6
+evidence_class,V+,7,2,1,4,0,0,7,1,0,6,0,7,0,0,7,0,0,7,0,0,7,0,0,0,7
+crowd_stratum,2--3 persons,2,1,1,0,0,0,2,1,0,1,0,2,0,0,2,0,0,2,0,0,2,0,0,0,2
+crowd_stratum,4+ persons,11,1,0,10,1,0,10,0,0,11,0,11,0,0,11,0,0,11,0,0,11,0,0,0,11
+candidate_competition,2+ eligible owners,7,0,0,7,1,0,6,0,0,7,0,7,0,0,7,0,0,7,0,0,7,0,0,0,7
+candidate_competition,one eligible owner,6,2,1,3,0,0,6,1,0,5,0,6,0,0,6,0,0,6,0,0,6,0,0,0,6

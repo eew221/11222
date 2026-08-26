@@ -1,6 +1,6 @@
 # RC-WSSI reproducibility package
 
-This repository accompanies manuscript v30, *Geometry-Defined Single-Owner PPE Evidence Allocation and Cross-Worker Contamination Analysis*.
+This repository accompanies manuscript v35, *Geometry-Defined Single-Owner PPE Evidence Allocation and Cross-Worker Contamination Analysis*.
 
 It provides the implementation, paper source, split/audit manifests, and blinded annotation templates for reproducing the reported protocol. It does **not** distribute the self-collected construction-scene images, detector weights, prediction caches, or per-image labels. The raw frames may contain identifiable people and remain under the authoring organization's confidentiality and privacy controls.
 
@@ -8,15 +8,16 @@ It provides the implementation, paper source, split/audit manifests, and blinded
 
 The study evaluates deterministic single-owner PPE evidence allocation and cross-worker evidence contamination under a geometry-defined reference. Its Clopper-Pearson calculation is a model-conditional feasibility diagnostic under an independent-binomial worker model. It is not a cluster-valid statistical guarantee or a deployment safety claim.
 
-The completed human audits are complementary: a blinded, independently adjudicated, deliberately difficult candidate-restricted subset and a pre-frozen source-stratified random open-candidate audit with three blind passes. The public package contains protocol materials and aggregate outputs only; raw images and per-image labels remain private.
+The completed human audits are complementary: a two-pass blinded, deliberately difficult candidate-restricted subset with third-expert adjudication, a pre-frozen source-stratified random open-candidate audit with three blind passes, and a completed detector-output audit. The detector-output audit covers 66 pre-frozen final-test images and 376 rows (305 predicted PPE and 71 reference PPE misses); RC-WSSI agrees on 265/297 (0.892) predicted PPE rows with determinate human owners, with 7 false detections and 24 owner-outside-detected-person events. This is a sampled error decomposition, not full-corpus semantic accuracy or deployment validation. The public package contains protocol materials and aggregate outputs only; raw images and per-image labels remain private.
 
 ## Repository layout
 
-- `manuscript/`: v30 manuscript source, bibliography, and non-sensitive analysis figures. The compiled submission PDF and qualitative source frames remain in the local submission workspace until publication authorization is confirmed.
+- `manuscript/`: v35 manuscript source, bibliography, and non-sensitive analysis figures. The compiled submission PDF and qualitative source frames remain in the local submission workspace until publication authorization is confirmed.
 - `scripts/`: training, validation, cached prediction, analysis, and annotation utilities.
 - `audit/difficult_20260810_v1/`: manifest and instructions for the completed difficult audit. Raw images are excluded.
 - `audit/random_20260812_v1/`: frozen source-stratified random audit manifest, blank templates, and the v2 open-set three-pass protocol. Raw images are excluded.
-- `audit/random_20260812_v1/results_v30/`: aggregate random-audit evaluation outputs only; per-image expert labels are excluded.
+- `audit/random_20260812_v1/results_v31/`: aggregate random-audit evaluation outputs only; per-image expert labels are excluded.
+- `audit/end_to_end_detector_output_v1/`: templates, instructions, and aggregate results from the completed detector-output audit. Raw images, detector caches, sealed references, and human response rows are excluded.
 - `SUBMISSION_METADATA_REQUIRED.md`: fields that require author verification before submission.
 
 ## Environment
@@ -40,6 +41,7 @@ The recorded `torch==2.6.0` requirement is intentionally CUDA-neutral. Install t
 2. Create the four-role filename-group protocol with `scripts/build_source_disjoint_protocol.py` and validate it with `scripts/source_disjoint_validation.py`.
 3. Train/cache predictions using the source-disjoint scripts, then compute worker-state summaries with `scripts/formal_worker_state_experiment.py` and `scripts/analyze_cached_rc_wssi_robustness.py`.
 4. Use `scripts/serve_manual_assignment_audit.py` for the completed difficult candidate-restricted audit. For the complementary random audit, use `scripts/prepare_open_set_random_assignment_audit.py` and `scripts/serve_open_set_assignment_audit.py` for three independent open-set blind passes; freeze all three before running `scripts/analyze_open_set_random_assignment_audit.py` and `scripts/evaluate_open_set_random_human_reference.py`.
+5. For the detector-output audit, freeze a held-out prediction cache, run `scripts/prepare_end_to_end_detection_audit.py`, serve three independent passes with `scripts/serve_open_set_assignment_audit.py`, and run `scripts/analyze_end_to_end_detection_audit.py` only after all three passes are frozen. The completed public aggregate outputs are in `audit/end_to_end_detector_output_v1/results_v35_public/`; the sealed detector reference and per-image response rows remain restricted.
 
 The project-specific scripts expect the authorized data, protocol manifests, run directories, and weights at the paths supplied on their command lines. They deliberately fail rather than downloading or redistributing restricted inputs.
 
@@ -49,4 +51,4 @@ The repository URL is https://github.com/eew221/11222. Before manuscript submiss
 
 ## License and data notice
 
-Original repository code is released under the MIT License. This license does not grant any right to access, copy, or redistribute the self-collected image data, per-image labels, weights, caches, or image-derived overlays, which remain restricted. See `LICENSE`, `DATA_AND_ETHICS.md`, and `RELEASE_NOTES_v0.4.1.md`.
+Original repository code is released under the MIT License. This license does not grant any right to access, copy, or redistribute the self-collected image data, per-image labels, weights, caches, or image-derived overlays, which remain restricted. See `LICENSE`, `DATA_AND_ETHICS.md`, and `RELEASE_NOTES_v0.4.2.md`.

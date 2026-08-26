@@ -10,6 +10,7 @@ manuscript/*.pdf
 prediction_cache/
 cache/
 runs/
+audit/end_to_end_detector_output_v1/**/end_to_end_detector_output_rows.csv
 __pycache__/
 *.pyc
 .venv/

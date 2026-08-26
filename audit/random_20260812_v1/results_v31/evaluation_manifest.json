@@ -1,0 +1,19 @@
+{
+  "status": "complete_open_set_random_human_reference_evaluation",
+  "images": 66,
+  "filename_groups": 11,
+  "human_reference_rows": 334,
+  "ambiguous_rows_excluded_from_exact_scoring": 13,
+  "methods": [
+    "proposed_lexicographic",
+    "center_inside",
+    "hungarian_iou",
+    "max_iou",
+    "global_pooling"
+  ],
+  "bootstrap_draws": 20000,
+  "input_sha256": {
+    "human_reference": "42b27ed59cb55d1d7643d45b9fee69253ae5ae6312fd892605ad0f9068303ca6"
+  },
+  "scope": "open-candidate random sampled PPE-owner evaluation only; not full-corpus worker-state truth, cluster-valid inference, or deployment validation"
+}

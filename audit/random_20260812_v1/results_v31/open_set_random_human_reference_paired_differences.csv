@@ -1,0 +1,5 @@
+comparison,exact_accuracy_difference,filename_group_bootstrap_low,filename_group_bootstrap_high,interval_note
+RC-WSSI minus center_inside,0.009345794392523364,0,0.01904761904761905,descriptive paired filename-group resampling interval; not cluster-valid inference
+RC-WSSI minus hungarian_iou,0.003115264797507788,0,0.009868421052631578,descriptive paired filename-group resampling interval; not cluster-valid inference
+RC-WSSI minus max_iou,0.006230529595015576,0,0.01529051987767584,descriptive paired filename-group resampling interval; not cluster-valid inference
+RC-WSSI minus global_pooling,0.9003115264797508,0.8698630136986302,0.9255952380952381,descriptive paired filename-group resampling interval; not cluster-valid inference

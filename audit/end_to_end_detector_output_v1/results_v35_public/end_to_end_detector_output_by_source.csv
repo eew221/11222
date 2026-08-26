@@ -1,0 +1,12 @@
+audit_rows,predicted_ppe,matched_predicted_ppe,unmatched_predicted_ppe,matched_predicted_human_false_detection,matched_predicted_not_human_false_detection,unmatched_predicted_human_false_detection,unmatched_predicted_not_human_false_detection,predicted_owner_in_detected_person_set,predicted_owner_outside_detected_person_set,human_false_detection,predicted_ambiguous,predicted_none,determinate_owner_predicted_ppe,rc_exact_owner,rc_owner_mismatch,rc_in_set_owner_mismatch,missed_reference_ppe,missed_owner_in_detected_person_set,missed_owner_outside_detected_person_set,missed_ambiguous,missed_none,all_owner_outside_detected_person_set,all_ambiguous,source_group,rc_exact_rate_on_determinate_owner
+34,33,28,5,0,28,1,4,32,0,1,0,0,32,32,0,0,1,1,0,0,0,0,0,10_tunnel,1.0
+31,28,18,10,0,18,1,9,27,0,1,0,0,27,27,0,0,3,3,0,0,0,0,0,11_tunnel,1.0
+38,28,14,14,0,14,1,13,27,0,1,0,0,27,25,2,2,10,6,4,0,0,4,0,1_tunnel,0.9259259259259259
+46,29,19,10,0,19,2,8,27,0,2,0,0,27,25,2,2,17,9,8,0,0,8,0,2_tunnel,0.9259259259259259
+47,38,29,9,0,29,0,9,37,1,0,0,0,38,34,4,3,9,7,2,0,0,3,0,3_tunnel,0.8947368421052632
+34,26,15,11,0,15,0,11,20,6,0,0,0,26,18,8,2,8,6,2,0,0,8,0,4_tunnel,0.6923076923076923
+30,26,18,8,0,18,0,8,26,0,0,0,0,26,20,6,6,4,3,1,0,0,1,0,5_tunnel,0.7692307692307693
+34,26,21,5,1,20,0,5,25,0,1,0,0,25,24,1,1,8,8,0,0,0,0,0,6_tunnel,0.96
+23,23,18,5,0,18,0,5,23,0,0,0,0,23,19,4,4,0,0,0,0,0,0,0,7_tunnel,0.8260869565217391
+27,21,12,9,0,12,1,8,20,0,1,0,0,20,17,3,3,6,6,0,0,0,0,0,8_tunnel,0.85
+32,27,17,10,0,17,0,10,26,0,0,1,0,26,24,2,2,5,5,0,0,0,0,1,9_tunnel,0.9230769230769231
