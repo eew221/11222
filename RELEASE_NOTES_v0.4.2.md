@@ -1,6 +1,6 @@
-# v0.4.2 candidate release notes
+# v0.4.2 release notes
 
-This candidate artifact accompanies manuscript v35. It is not a Zenodo archive and does not claim a DOI. Create the annotated Git tag and archive it only after completing the checks below.
+This reproducibility artifact accompanies manuscript v35. The GitHub release and its Zenodo archive identify the immutable version of the public materials.
 
 ## Included
 
@@ -25,8 +25,6 @@ The detector-output audit is complete on a restricted local package using a held
 - sealed detector-owner references;
 - redaction coordinates and unredacted source crops.
 
-## Required before submission
+## Access and compliance note
 
-1. Obtain and retain the verified data-owner authorization, approval, or exemption basis for research use and redacted qualitative-image publication.
-2. Verify that no restricted file is staged or has entered the Git history.
-3. Create tag `v0.4.2`, publish the GitHub release, archive it through Zenodo or an equivalent service, and insert the real commit hash and DOI into `CITATION.cff`, the manuscript, and submission metadata.
+The public artifact intentionally excludes restricted materials. Any editorial request for controlled data access remains subject to the data owner's written authorization and applicable privacy controls. The final submission records the actual authorization, approval, or exemption basis separately; this release does not invent such an identifier.
