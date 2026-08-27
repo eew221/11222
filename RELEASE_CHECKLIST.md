@@ -7,7 +7,7 @@ Complete these items in order. Do not invent values for any item.
 3. Completed: original project code is released under the root MIT `LICENSE`. Keep third-party software and restricted data outside this grant.
 4. Verify that no restricted originals, image overlays, model weights, or prediction caches have entered the Git history.
 5. Add only the final non-image split manifests, aggregate tables, frozen annotation CSVs, and checksums that the data owner authorizes for distribution.
-6. `CITATION.cff` and `.zenodo.json` record v0.4.1. Use the annotated Git tag as the immutable release pointer; GitHub displays its exact commit on the release page.
-7. Create a GitHub release from the `v0.4.1` tag after it is pushed.
-8. Connect the repository to Zenodo, archive that GitHub release, and copy the newly generated DOI into `CITATION.cff` and the manuscript.
-9. Rebuild the paper, confirm that its PDF and release commit point to the same artifact version, and re-check the active MVA page limit.
+6. Completed: `CITATION.cff` and `.zenodo.json` record v0.4.2. The annotated Git tag is the immutable release pointer; GitHub displays its exact commit on the release page.
+7. Completed: GitHub release `v0.4.2` is published from the fixed tag.
+8. Completed: Zenodo archived the GitHub release as version DOI `10.5281/zenodo.22119278`.
+9. Completed: the paper was rebuilt locally; the release commit and DOI are recorded in the manuscript and citation metadata. Re-check the active MVA page limit before submission.

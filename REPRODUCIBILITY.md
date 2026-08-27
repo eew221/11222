@@ -4,9 +4,9 @@
 
 - Source: `manuscript/main_v35.tex`
 - Bibliography: `manuscript/references.bib`
-- Local compiled PDF: `RC_WSSI_MVA_manuscript_v35.pdf` in the author workspace
-- Local PDF page count: recorded after the final local compile; the compiled PDF is not public until qualitative-image publication authorization is verified.
-- Local PDF SHA-256: recorded only after the final local compile.
+- Local compiled PDF: `RC_WSSI_MVA_manuscript_v36.pdf` in the author workspace
+- Local PDF page count: 25 pages. The compiled PDF is not public because qualitative source images remain restricted.
+- Local PDF SHA-256: `88EB05D1D6D24B30007C7F9478B1524D68214BD1B9DD72108A58A9F8FDD646EA`.
 - Build sequence: `pdflatex`, `bibtex`, `pdflatex`, `pdflatex`
 
 The public repository intentionally excludes the compiled PDF until permission to publish the qualitative image figure is verified. The manuscript source also requires an authorized local copy of the underlying image source for a complete rebuild.
@@ -27,7 +27,7 @@ The completed detector-output audit uses a frozen held-out 10% YOLOv8s seed-0 ca
 
 - Python syntax check: passed for the 21 repository scripts.
 - Restricted image/weight binaries in repository tree: none at initial package creation.
-- Public GitHub release: v0.4.1 is public; v0.4.2 is a local candidate until tagged and published.
+- Public GitHub release: v0.4.2 is published and archived. The release tag resolves to commit `6b916c59570ec5db1d068b00299ff8802b037846`; Zenodo version DOI: `10.5281/zenodo.22119278`.
 - Code license: MIT for original code only; restricted data are excluded.
 - The dataset is self-collected and not publicly released. Organization-approved ethics/legal basis must be retained before submission; see `DATA_AND_ETHICS.md`, `RELEASE_CHECKLIST.md`, and `templates/单位数据研究使用与脱敏图发表授权记录_中文.md`.
 
