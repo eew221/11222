@@ -11,6 +11,17 @@ prediction_cache/
 cache/
 runs/
 audit/end_to_end_detector_output_v1/**/end_to_end_detector_output_rows.csv
+audit/independent_worker_state_random_20260827_v1/annotated_images/
+audit/independent_worker_state_random_20260827_v1/annotator_A/
+audit/independent_worker_state_random_20260827_v1/annotator_B/
+audit/independent_worker_state_random_20260827_v1/annotator_B_retry/
+audit/independent_worker_state_random_20260827_v1/annotator_C/
+audit/independent_worker_state_random_20260827_v1/results_ab/
+audit/independent_worker_state_random_20260827_v1/results_ab_retry/
+audit/independent_worker_state_random_20260827_v1/results_final/
+audit/independent_worker_state_random_20260827_v1/human_evaluation/
+audit/independent_worker_state_random_20260827_v1/human_evaluation_v*/
+audit/independent_worker_state_random_20260827_v1/*.run.log
 __pycache__/
 *.pyc
 .venv/

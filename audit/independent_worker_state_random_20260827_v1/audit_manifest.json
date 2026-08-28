@@ -1,0 +1,24 @@
+{
+  "protocol": "independent_open_set_worker_state_audit_v1",
+  "selection": "pre-outcome source-stratified random sample from outer test; prior audits excluded",
+  "selection_seed": 20260827,
+  "count_per_source": 20,
+  "images": 220,
+  "worker_rows": 686,
+  "sources": [
+    "10_tunnel",
+    "11_tunnel",
+    "1_tunnel",
+    "2_tunnel",
+    "3_tunnel",
+    "4_tunnel",
+    "5_tunnel",
+    "6_tunnel",
+    "7_tunnel",
+    "8_tunnel",
+    "9_tunnel"
+  ],
+  "excluded_rows": 126,
+  "annotation_status": "complete_frozen_consensus",
+  "reference_visibility": "person boxes only; no PPE boxes or method output shown"
+}

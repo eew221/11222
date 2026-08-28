@@ -1,0 +1,31 @@
+{
+  "status": "complete_sampled_human_worker_state_evaluation",
+  "audit_images": 220,
+  "human_worker_rows": 686,
+  "raw_method_rows": 17150,
+  "expected_raw_method_rows": 17150,
+  "seed_count": 5,
+  "cell_count": 15,
+  "filename_groups": 11,
+  "cache_cells": [
+    "r10_s0_f0",
+    "r10_s0_f1",
+    "r10_s0_f2",
+    "r10_s1_f0",
+    "r10_s1_f1",
+    "r10_s1_f2",
+    "r10_s2_f0",
+    "r10_s2_f1",
+    "r10_s2_f2",
+    "r10_s3_f0",
+    "r10_s3_f1",
+    "r10_s3_f2",
+    "r10_s4_f0",
+    "r10_s4_f1",
+    "r10_s4_f2"
+  ],
+  "alpha": 0.3,
+  "delta": 0.1,
+  "scope": "sampled independent open-set human worker-state audit; not full-corpus prevalence, cluster-valid inference, or deployment safety guarantee",
+  "human_consensus_sha256": "3787bbe8a391acee396462ae97db021ebc37e003f9dc68633a95363e9f7433e5"
+}
