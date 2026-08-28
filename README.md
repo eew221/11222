@@ -52,7 +52,7 @@ The project-specific scripts expect the authorized data, protocol manifests, run
 
 ## Citation and archival release
 
-The repository URL is https://github.com/eew221/11222. Release `v0.4.2` is archived at commit `6b916c59570ec5db1d068b00299ff8802b037846`, with Zenodo DOI `10.5281/zenodo.22119278`. The v38 source is prepared for immutable software release `v0.4.3`; its commit and Zenodo DOI are recorded after the release is archived. The older DOI must not be cited as if it archived v38.
+The repository URL is https://github.com/eew221/11222. The v38 package is frozen in GitHub release `v0.4.3`, at commit `0d32f36361a01b8d4c2a456ac6c4858bcbb4d4fb`, and archived at Zenodo DOI `10.5281/zenodo.22141331`. The older `v0.4.2` DOI `10.5281/zenodo.22119278` predates v38 and must not be cited as if it archived v38.
 
 ## License and data notice
 
