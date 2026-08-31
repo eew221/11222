@@ -11,7 +11,7 @@ authors:
   - family-names: Cai
     given-names: Yong
 repository-code: "https://github.com/eew221/11222"
-date-released: 2026-08-28
-version: "0.4.3"
-doi: "10.5281/zenodo.22141331"
+date-released: 2026-08-31
+version: "0.4.4"
+doi: "10.5281/zenodo.22141330"
 abstract: "Code and derived manifests for geometry-defined single-owner PPE evidence allocation and cross-worker contamination analysis."

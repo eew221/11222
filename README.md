@@ -52,7 +52,7 @@ The project-specific scripts expect the authorized data, protocol manifests, run
 
 ## Citation and archival release
 
-The repository URL is https://github.com/eew221/11222. The v38 package is frozen in GitHub release `v0.4.3`, at commit `0d32f36361a01b8d4c2a456ac6c4858bcbb4d4fb`, and archived at Zenodo DOI `10.5281/zenodo.22141331`. The older `v0.4.2` DOI `10.5281/zenodo.22119278` predates v38 and must not be cited as if it archived v38.
+The repository URL is https://github.com/eew221/11222. The final v38 package is frozen in GitHub release `v0.4.4`; its immutable tag identifies the archived commit. The Zenodo concept DOI is `10.5281/zenodo.22141330`, and the release page records the version-specific DOI for `v0.4.4`. The older `v0.4.2` DOI `10.5281/zenodo.22119278` predates v38 and must not be cited as if it archived v38.
 
 ## License and data notice
 
