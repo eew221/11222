@@ -7,7 +7,7 @@ Complete these items in order. Do not invent values for any item.
 3. Completed: original project code is released under the root MIT `LICENSE`. Keep third-party software and restricted data outside this grant.
 4. Verify that no restricted originals, image overlays, model weights, or prediction caches have entered the Git history.
 5. Add only the final non-image split manifests, aggregate tables, frozen annotation CSVs, and checksums that the data owner authorizes for distribution.
-6. Completed: `CITATION.cff` and `.zenodo.json` identify the v0.4.5 software release associated with manuscript v38; the stable Zenodo concept DOI is `10.5281/zenodo.22119277`.
-7. Completed: GitHub release `v0.4.5` is published from its immutable tag.
-8. Completed: Zenodo archives the v0.4.5 tag as a versioned record; record the generated version DOI on the GitHub release page.
-9. Local build completed: manuscript v38 was rebuilt and checked. The accompanying public release is v0.4.5; its immutable tag identifies the archived commit.
+6. Completed: `CITATION.cff` and `.zenodo.json` identify the v0.4.6 software release associated with manuscript v38; the stable Zenodo concept DOI is `10.5281/zenodo.22119277`.
+7. Completed after push: GitHub release `v0.4.6` is published from its immutable tag.
+8. Completed after Zenodo processing: Zenodo archives the v0.4.6 tag as a versioned record; record the generated version DOI on the GitHub release page and in the final reproducibility record.
+9. Local build completed: manuscript v38 was rebuilt and checked. The accompanying public release is v0.4.6; its immutable tag identifies the commit used for the build.

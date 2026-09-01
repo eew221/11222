@@ -5,8 +5,8 @@
 - Source: `manuscript/main_v38.tex`
 - Bibliography: `manuscript/references.bib`
 - Local compiled PDF: `output/pdf/RC_WSSI_MVA_manuscript_v38.pdf` in the author workspace
-- Local PDF page count: 26 pages. The compiled PDF is not public because qualitative source images remain restricted.
-- Local PDF SHA-256: `789FBAAE232F847449879C7A5D335D6EEF4F7E00C3A8C17F60561CF30E411FD5`.
+- Local PDF page count: 27 pages. The compiled PDF is not public because qualitative source images remain restricted.
+- Local PDF SHA-256: `51966C5ADA53CC69F37A5D669F5AE25219C90F8AB910B38F0FC4D3CEAFD4D433`.
 - Build sequence: `pdflatex`, `bibtex`, `pdflatex`, `pdflatex`
 
 The public repository intentionally excludes the compiled PDF until permission to publish the qualitative image figure is verified. The manuscript source also requires an authorized local copy of the underlying image source for a complete rebuild.
@@ -34,7 +34,7 @@ The completed detector-output audit uses a frozen held-out 10% YOLOv8s seed-0 ca
 - Python syntax check: passed for the 21 repository scripts.
 - Restricted image/weight binaries in repository tree: none at initial package creation.
 - Public GitHub release: v0.4.2 is published and archived. The release tag resolves to commit `6b916c59570ec5db1d068b00299ff8802b037846`; Zenodo version DOI: `10.5281/zenodo.22119278`. This record predates manuscript v38 and must not be cited as the v38 archive.
-- v38 archival status: finalized in GitHub release `v0.4.5`; its immutable tag identifies the archived commit. The Zenodo concept DOI is `10.5281/zenodo.22119277`, which resolves to the latest archived release, and the `v0.4.5` release page records the matching version-specific DOI.
+- v38 archival status: finalized in GitHub release `v0.4.6`; the immutable tag is the authoritative source commit identifier and the resolved commit hash is shown on the release page. The Zenodo concept DOI is `10.5281/zenodo.22119277`, whose version record identifies this release.
 - Code license: MIT for original code only; restricted data are excluded.
-- The dataset is self-collected and not publicly released. Organization-approved ethics/legal basis and the local qualitative-image redaction record remain outside this code package and must be verified before submission; see `DATA_AND_ETHICS.md`, `RELEASE_CHECKLIST.md`, and `templates/单位数据研究使用与脱敏图发表授权记录_中文.md`.
+- The dataset is self-collected, privately held, and not publicly released. No third-party data-owner authorization or institutional approval identifier is claimed in this package. Displayed qualitative crops were redacted before final rendering; the raw images, redaction overlays, per-image labels, weights, and caches remain restricted. See `DATA_AND_ETHICS.md`, `RELEASE_CHECKLIST.md`, and `templates/单位数据研究使用与脱敏图发表授权记录_中文.md`.
 
