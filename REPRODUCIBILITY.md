@@ -1,4 +1,4 @@
-# Reproducibility record
+﻿# Reproducibility record
 
 ## Current manuscript
 
@@ -34,8 +34,7 @@ The completed detector-output audit uses a frozen held-out 10% YOLOv8s seed-0 ca
 - Python syntax check: passed for the 21 repository scripts.
 - Restricted image/weight binaries in repository tree: none at initial package creation.
 - Public GitHub release: v0.4.2 is published and archived. The release tag resolves to commit `6b916c59570ec5db1d068b00299ff8802b037846`; Zenodo version DOI: `10.5281/zenodo.22119278`. This record predates manuscript v38 and must not be cited as the v38 archive.
-- v38 archival status: completed. GitHub release `v0.4.3` resolves to commit `0d32f36361a01b8d4c2a456ac6c4858bcbb4d4fb`; the matching versioned Zenodo record is `10.5281/zenodo.22141331`.
+- v38 archival status: finalized in GitHub release `v0.4.5`; its immutable tag identifies the archived commit. The Zenodo concept DOI is `10.5281/zenodo.22119277`, which resolves to the latest archived release, and the `v0.4.5` release page records the matching version-specific DOI.
 - Code license: MIT for original code only; restricted data are excluded.
 - The dataset is self-collected and not publicly released. Organization-approved ethics/legal basis and the local qualitative-image redaction record remain outside this code package and must be verified before submission; see `DATA_AND_ETHICS.md`, `RELEASE_CHECKLIST.md`, and `templates/单位数据研究使用与脱敏图发表授权记录_中文.md`.
-
 
